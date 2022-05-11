@@ -1,10 +1,7 @@
-#Step 5
-
 import random
-
-
 from hangman_art import stages,logo
 from hangman_words import word_list
+
 print(logo)
 
 chosen_word = random.choice(word_list)
@@ -12,8 +9,6 @@ word_length = len(chosen_word)
 
 end_of_game = False
 lives = 6
-
-
 
 display = []
 for _ in range(word_length):
